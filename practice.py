@@ -74,7 +74,7 @@ def med_mean_std(col, col_2, dato):
     
     for unique in keys:
           
-        print(unique)
+        #print(unique)
         f = f_data[col].apply(contain_option, args = (unique,))
         values.append(f_data[f])
         
